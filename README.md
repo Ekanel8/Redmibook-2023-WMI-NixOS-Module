@@ -43,7 +43,7 @@ Add this module to your NixOS configuration:
 
 ## Usage Example
 
-> Now you can correctly recognize the calls made by extra buttons (for example, using the [wev](https://github.com/jwrdegoede/wev) utility) and correctly use them for binds in your environment
+> Now you can correctly recognize the calls made by extra buttons (for example, using the [wev](https://github.com/jwrdegoede/wev) utility) and use them for binds in your environment
 
 ## Source
 Based on [vrolife/modern_laptop](https://github.com/vrolife/modern_laptop) WMI driver (`.c`).
