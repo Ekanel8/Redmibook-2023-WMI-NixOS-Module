@@ -22,12 +22,12 @@ let
 
     buildPhase = ''
       make -C ${config.boot.kernelPackages.kernel.dev}/lib/modules/${config.boot.kernelPackages.kernel.dev.modDirVersion}/build \
-        M=$PWD/drivers/redmibook_wmi modules
+        M=$PWD modules
     '';
 
     installPhase = ''
       mkdir -p $out/lib/modules/${config.boot.kernelPackages.kernel.dev.modDirVersion}/extra
-      cp drivers/redmibook_wmi/redmibook_wmi.ko \
+      cp redmibook_wmi.ko \
          $out/lib/modules/${config.boot.kernelPackages.kernel.dev.modDirVersion}/extra/
     '';
   };
