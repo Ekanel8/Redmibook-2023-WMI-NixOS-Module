@@ -9,7 +9,7 @@ NixOS module for the WMI driver from [vrolife/modern_laptop](https://github.com/
 
 ## What is it? 
 
-Self-sufficient .nix module for controlling additional buttons of the redmi laptops
+Self-sufficient .nix module for wmi driver
 
 ## Installation
 
