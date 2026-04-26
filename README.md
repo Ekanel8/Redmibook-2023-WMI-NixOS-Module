@@ -1,6 +1,6 @@
 # WMI Driver for Redmi Book Pro
 
-NixOS module for the WMI driver from [vrolife/modern_laptop](https://github.com/vrolife/modern_laptop), enabling top buttons support for:
+NixOS module for the WMI driver, enabling top buttons support for:
 
 - **Redmi Book Pro 15 2023** (TESTED)
 - **Redmi Book Pro 14 2022** 
