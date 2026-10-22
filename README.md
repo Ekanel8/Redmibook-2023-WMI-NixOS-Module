@@ -1,5 +1,7 @@
 # WMI Driver for Redmi Book Pro
 
+> ⚠️ Deprecated: as of Linux kernel 7.3, WMI hotkey support for Redmi Book is handled natively by the mainline kernel (redmi-wmi / bitland-mifs-wmi), so this module is no longer necessary
+
 NixOS module for the WMI driver, enabling top buttons support for:
 
 - **Redmi Book Pro 15 2023** (TESTED)
